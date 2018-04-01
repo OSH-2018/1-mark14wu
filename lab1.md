@@ -14,6 +14,10 @@ _吴昊 PB16001800_
 
 1. 从官方网站 https://www.kernel.org/ 下载 3.18.102 的内核源代码
 
+2. `xz -d linux-3.18.102.tar.xz`
+
+3. `tar -xvf linux-3.18.102.tar`
+
 2. `make i386_defconfig` 配置为 x86 的默认编译选项
 
 3. `make menuconfig` 进入 makefile 的字符图形界面（TUI）
